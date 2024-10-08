@@ -1,0 +1,162 @@
+/* dar-button */
+*{
+    transition: background-color 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275),color 0.25s cubic-bezier(0.175, 0.3, 0.32, 1.275);
+}
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-label {
+    background-color: #111;
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-moon {
+    color: #f1c40f;
+}
+
+.fa-sun {
+    color: #f39c12;
+}
+
+.checkbox-label .ball {
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked+.checkbox-label .ball {
+    transform: translateX(24px);
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-label {
+    background-color: #111;
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-moon {
+    color: #f1c40f;
+}
+
+.fa-sun {
+    color: #f39c12;
+}
+
+.checkbox-label .ball {
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked+.checkbox-label .ball {
+    transform: translateX(24px);
+}
+/* dark-mode */
+/* darkmode */
+body.dark-mode {
+    background-color: #1e2532;
+}
+
+body.dark-mode p,
+body.dark-mode h5 {
+    color: #f0fbf9;
+}
+
+body.dark-mode h3 {
+    color: #0d95f6;
+}
+
+body.dark-mode img {
+    background-blend-mode: multiply;
+}
+
+body.dark-mode .text.typing::before {
+    background-color: #1e2532;
+    border-left-color: var(--secondary-text);
+}
+
+body.dark-mode .pr-detail p {
+    color: #1e2532;
+}
+
+body.dark-mode .details-wrapper {
+    background-color: rgba(11, 83, 160, 0.5);
+}
+
+body.dark-mode #internship a {
+    color: #15a756;
+}
+
+body.dark-mode .small-bold-text a {
+    color: #15a756;
+}
+
+body.dark-mode h1,
+body.dark-mode h2 {
+    color: rgb(26, 190, 185);
+}
+
+body.dark-mode .small-bold-text {
+    color: rgb(67, 163, 232);
+}
+
+body.dark-mode h6 {
+    color: rgb(190, 207, 201);
+}
+
+body.dark-mode h4 {
+    color: rgb(47, 255, 141);
+}
+
+body.dark-mode footer {
+    background-color: #1e2532;
+    color: #0d95f6;
+}
+body.dark-mode .card-body{
+    color: #f0fbf9;
+    background-color: #1e2532;
+}
+body.dark-mode .pr-detail p{
+    color: #f0fbf9;
+}
+body.dark-mode .top{
+    background-color: #15a756;
+}
+body.dark-mode .top:hover{
+    background-color: #10773f;
+}
+body.dark-mode #type{
+    color:rgb(7, 242, 77);
+}

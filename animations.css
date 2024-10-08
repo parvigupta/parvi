@@ -1,0 +1,80 @@
+
+  .hobby-right {
+    /* background-color: brown; */
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  
+  .hobby-apply {
+    animation: hobby 1s ease-in-out ;
+  }
+  
+  @keyframes hobby {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .hobby-left {
+    /* background-color: brown; */
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  
+  .hobby-apply-left {
+    animation: hobby-left 1s ease-in-out ;
+  }
+  
+  @keyframes hobby-left {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .left-edu{
+    transform: translateY(0);
+    opacity: 1;
+    
+    
+  }
+  
+  .left-edu-apply{
+    animation: edu-left 0.5s ease-in-out;
+  }
+  .right-edu-apply{
+    animation: edu-right 0.5s ease-in-out;
+  }
+  .right-edu{
+    
+    transform: translateY(0);
+    opacity: 1;
+    
+  }
+  @keyframes edu-left {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes edu-right {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }

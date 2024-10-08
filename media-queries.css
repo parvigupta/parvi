@@ -1,0 +1,290 @@
+@media screen and (max-width:767px) {
+    details {
+        padding: 16px;
+    }
+    .menu {
+        position: absolute;
+        display: block;
+        top: 30px;
+        left: 20px;
+    }
+
+    .menu:hover {
+        cursor: grab;
+    }
+
+    .nav-bar {
+        position: relative;
+        overflow: initial;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .left-nav {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-img {
+        margin-top: 15px;
+        width: 150px;
+    }
+
+    #banner-heading {
+        text-align: center;
+        font-size: large;
+        display: block;
+        width: 100%;
+    }
+
+    .nav-links2 {
+        padding-block: 30px;
+        gap: 10px;
+        background-color: #1e2532;
+        position: absolute;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        left: -100%;
+        top: 100%;
+        transition: left 0.25s ease-in-out;
+    }
+
+    .nav-links2.active {
+        left: 0;
+    }
+
+    .nav-links2>li>a {
+        border: 2px solid rgb(6, 66, 60);
+        background-color: #2b513a;
+        padding: 10px;
+        border-radius: 6px;
+    }
+
+    .nav-links2>li>a:hover {
+
+        border: 1px solid rgb(6, 66, 60);
+        scale: 1.2;
+        background-color: rgb(7, 28, 21);
+        color: white;
+        border-color: rgb(85, 238, 187);
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .left-about {
+        width: 70%;
+    }
+
+    .projects {
+        margin-top: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .about-me {
+        width: 100%;
+    }
+
+    .right-edu {
+        width: 45vw;
+    }
+
+    .card-1,
+    .card-2 {
+        width: 47%;
+    }
+
+    .card-3 {
+        width: 47%;
+    }
+
+    .card-4 {
+        width: 47%;
+    }
+
+    .card-2:hover {
+        transform: translateX(-90px);
+        scale: 2;
+        z-index: 2;
+    }
+
+    .card-3:hover {
+        transform: translateX(90px);
+        scale: 2;
+        z-index: 2;
+    }
+
+    .card-4:hover {
+
+        transform: translateX(-90px);
+        scale: 2;
+        z-index: 2;
+    }
+
+    .projects-card {
+        height: 250px;
+    }
+
+    .project-details {
+        width: 100vw;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .project-details div {
+        display: none;
+        width: 0px;
+    }
+
+    .project-details>details {
+        margin-right: 40px;
+        padding: 14px;
+        width: 100vw;
+        text-align: justify;
+
+    }
+
+    .experience-flex {
+        flex-wrap: wrap;
+    }
+
+    #internship {
+        border-right: none;
+        width: 100%;
+        padding-bottom: 22px;
+    }
+
+    .blog-card,
+    .blog-card-container {
+        float: right;
+    }
+
+    .other-experience {
+        padding-top: 0px;
+        width: 100%;
+    }
+
+    .blog-detail {
+        width: 100%;
+    }
+
+    .blog-card-container {
+        width: 100vw;
+    }
+
+    .hobby-image {
+        display: none;
+    }
+
+    .hobby-sec-container {
+        margin-bottom: 20px;
+    }
+
+    .hobby-sec>h4 {
+        font-size: larger;
+    }
+
+    .hobby-sec>p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .skills-level-container li {
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+    }
+
+
+    .nav-links2 {
+        flex-direction: row;
+    }
+
+    .right-edu {
+        display: none;
+    }
+
+    .left-edu {
+        width: 80%;
+        margin-block: 20px;
+    }
+
+    .course-head {
+        text-align: center;
+    }
+
+    .right-course {
+        display: none;
+    }
+
+    .left-course a {
+        font-size: large;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 88%;
+    }
+
+    .card-1:hover,
+
+    .card-3:hover {
+        scale: 1;
+        transform: translateY(0);
+        transform: translateX(70px);
+    }
+
+    .card-2:hover {
+        scale: 1;
+    }
+
+    .card-4:hover {
+        scale: 1;
+        transform: translateX(-70px);
+    }
+
+    .project-container h2 {
+        text-align: center;
+    }
+
+    .skills-level-container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bar {
+        text-align: center;
+        width: 100%;
+    }
+
+    .about-me {
+        text-align: justify;
+    }
+
+    .con span {
+        font-size: medium;
+    }
+
+    .social-media {
+        flex-direction: column;
+        align-items: stretch;
+        font-size: larger;
+        padding-inline: 140px;
+    }
+
+    .social-media>a:hover::before {
+        width: 100%;
+    }
+}
